@@ -1,0 +1,11 @@
+.title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 5em;
+  font-weight: bolder;
+  padding: 3%;
+  margin: 3%;
+
+  color: aquamarine;
+  box-shadow: inset 0em 5em rgb(57, 179, 138);
+  border-radius: 0.2em;
+}

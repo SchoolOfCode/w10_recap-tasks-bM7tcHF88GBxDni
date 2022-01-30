@@ -2,6 +2,8 @@ import React from "react";
 import Comments from "../Comments";
 import Content from "../Content";
 
+import css from "./Article.module.css";
+
 function Article({ article }) {
   return (
     <>
