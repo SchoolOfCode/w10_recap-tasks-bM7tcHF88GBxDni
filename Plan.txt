@@ -7,4 +7,15 @@ Article
     like button
     Comments
         Comment
-    
+
+Create a new app on auth0.com
+    Make a note of the Domain (URL) and Client Secret/ID
+Configure
+    Callback URL - After successful login, redirect user to this URL
+    Logout URL - After logging out, redirect user to this URL
+    Allowed Web Origins - allow your app domain so Auth0 npm module can refresh auth tokens (it does this silently in the background)
+
+
+Install Auth0
+Login component (button)
+    ifAuthenticated, render the articles
