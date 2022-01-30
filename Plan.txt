@@ -19,3 +19,10 @@ Configure
 Install Auth0
 Login component (button)
     ifAuthenticated, render the articles
+
+Hosted on netlify
+    CI = npm run build
+    Netlify .env 
+        CI=false
+
+Change the Auth0 config to allow hosted domains
