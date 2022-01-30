@@ -8,5 +8,10 @@ h2 {
 }
 
 .article {
-  margin-right: 3%;
+  margin: 3%;
+}
+
+.heart {
+  font-size: 2em;
+  color: red;
 }

@@ -1,13 +1,16 @@
 import React from "react";
-import Comment from "../Comment";
+import AntDComment from "../AntDComment";
+//import Comment from "../Comment";
+
+import css from "./Comments.module.css";
 
 function Comments({ comments }) {
   return (
-    <>
+    <div className={css.comments}>
       {comments.map((comment) => {
-        return <Comment comment={comment} />;
+        return <AntDComment comment={comment} />;
       })}
-    </>
+    </div>
   );
 }
 
