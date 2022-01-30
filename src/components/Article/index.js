@@ -11,7 +11,9 @@ function Article({ article }) {
     <div className={css.article}>
       <h2>{article.title}</h2>
       <Content paragraphs={article.paragraphs} />
-      <HeartOutlined style={{ fontSize: "1.5em", color: "red" }} />
+      <a>
+        <HeartOutlined style={{ fontSize: "1.5em", color: "red" }} />
+      </a>
       <Comments comments={article.comments} />
     </div>
   );
