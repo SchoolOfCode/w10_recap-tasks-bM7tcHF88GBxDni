@@ -1,5 +1,6 @@
 import articles from "../../libs/articles";
 import Article from "../Article";
+import Login from "../Login";
 import Title from "../Title";
 
 import css from "./App.module.css";
@@ -7,7 +8,10 @@ import css from "./App.module.css";
 function App() {
   return (
     <div className={css.app}>
-      <Title />
+      <div className={css.nav}>
+        <Title />
+        <Login />
+      </div>
       <div>
         {articles.map((article) => {
           return <Article article={article} />;
