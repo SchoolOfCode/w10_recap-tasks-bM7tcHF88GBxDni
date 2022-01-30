@@ -1,0 +1,9 @@
+App.
+state - articles
+behaviour - pass articles as props to Article component
+Article
+    h2
+    Content
+    like button
+    Comments
+    
